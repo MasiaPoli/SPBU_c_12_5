@@ -10,7 +10,7 @@ long long b_sum(const int* a, size_t n)
 }
 size_t b_maxsum_num(const int (*a)[CNT], size_t n, size_t m)
 {
-    long long cur_max=MININFI;
+    long long cur_max=LLONG_MIN;
     size_t max_num;
     for(int i=0; i<n; i++)
     {
